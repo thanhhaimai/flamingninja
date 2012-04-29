@@ -1,4 +1,7 @@
 - if (user && locals.data)
+  
+  a.btn.btn-large.primary(href="/device/list") List my devices
+  
   p.lead #{data.title} Green Button Data
   
   link(rel="stylesheet", type="text/css", href="/css/chart.css")
@@ -19,6 +22,6 @@
       #legend
   
 - else
-  a.btn.btn-large.primary(href="/session/connect") View My Data
+  a.btn.btn-large.primary(href="/session/connect") Authenticate
 
 
